@@ -33,7 +33,7 @@ custom:
           email: "vc@vadim.nz"
     resources:
       -
-        path: "/hello"
+        path: "prod/hello"
         description: "Returns random status code and request's metadata"
 
   alerts:
