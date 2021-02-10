@@ -20,6 +20,7 @@ app: random-api
 
 plugins:
   - serverless-plugin-aws-alerts
+  - serverless-aws-documentation
 
 provider:
   name: aws
@@ -32,7 +33,21 @@ custom:
     config: /trendmicro/randomapi/${self:provider.stage}/${self:provider.region}
 
   dashboards: true
-    
+  
+  documentation:
+    api:
+      info:
+        version: "1" 
+        title: "randomAPI" 
+        description: "Simple API returning random status codes"
+        contact:
+          name: "Vadim Chausov"
+          email: "vc@vadim.nz"
+    resources:
+      -
+        path: "https://jw64f0zc20.execute-api.ap-southeast-2.amazonaws.com/prod/hello"
+        description: "Returns random status code and request metadata"
+
   alerts:
   
     nameTemplate: $[functionName]-$[metricName]

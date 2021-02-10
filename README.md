@@ -21,7 +21,7 @@ https://www.serverless.com/framework/docs/guides/cicd/running-in-your-own-cicd/
 To monitor deployments and key metrics via Serverless dashbord
 
 # CI/CD
-- Using GitHub actions
+- Using GitHub actions  
 ![Deploy Prod](https://github.com/kiwibel/random-api/workflows/Deploy%20Prod/badge.svg)
 
 
