@@ -91,7 +91,6 @@ custom:
         period: 60
         evaluationPeriods: 5
         comparisonOperator: GreaterThanOrEqualToThreshold
-        treatMissingData: ignore
         alarmActions:
           - nonCritical
         okActions:
