@@ -83,6 +83,7 @@ custom:
         description: 'Function is getting called frequently. Function: $[functionName] Priority=P3'
         namespace: 'AWS/Lambda'
         enabled: true
+        treatMissingData: notBreaching
         nameTemplate: $[functionName]_high_invocation_rate
         metric: Invocations
         threshold: 60
