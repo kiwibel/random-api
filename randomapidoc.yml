@@ -1,0 +1,17 @@
+---
+swagger: "2.0"
+info:
+  description: "Simple API returning random status codes"
+  version: "2021-02-10T23:38:06Z"
+  title: "prod-randomApi"
+  contact:
+    name: "Vadim Chausov"
+    email: "vc@vadim.nz"
+host: "jw64f0zc20.execute-api.ap-southeast-2.amazonaws.com"
+basePath: "/prod"
+schemes:
+- "https"
+paths:
+  /hello:
+    get:
+      responses: {}
