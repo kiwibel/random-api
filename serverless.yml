@@ -16,6 +16,7 @@ service: randomApi
 app: random-api
 # org: vacoine   # Will need to use TrendMicro organization account
 # Commented out because free plan for Serverless dashboard does not allow adding members and generating tokens for CI/CD
+# If you want to use dashboard locally, can uncomment it (but don't commit/push to GitHub!)
 
 plugins:
   - serverless-plugin-aws-alerts
