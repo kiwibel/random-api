@@ -11,10 +11,10 @@
 
 
 name: Deploy Prod
-on:
-  push:
-    tags: # Deploy tag (e.g. v1.0) to production
-      - 'v**'
+on: workflow_dispatch
+#  push:
+#    tags: # Deploy tag (e.g. v1.0) to production
+#      - 'v**'
 jobs:
   deploy-prod:
     runs-on: ubuntu-latest
