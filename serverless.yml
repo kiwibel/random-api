@@ -14,7 +14,8 @@
 service: randomApi
 # app and org for use with dashboard.serverless.com
 app: random-api
-org: vacoine   # Will need to use TrendMicro organization account
+# org: vacoine   # Will need to use TrendMicro organization account
+# Commented out because free plan for Serverless dashboard does not allow adding members and generating tokens for CI/CD
 
 plugins:
   - serverless-plugin-aws-alerts
