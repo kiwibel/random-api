@@ -10,10 +10,7 @@ curl https://jw64f0zc20.execute-api.ap-southeast-2.amazonaws.com/prod/hello
 - Alerting with CloudWatch alerts
 - IAM resources pre-configured (roles for local deployment and Serverless dashboard)
 - GitHub teams, members and permissions configured
-- Serverless dashboard configured for CI/CD
-https://www.serverless.com/framework/docs/guides/cicd/running-in-your-own-cicd/
 - Scalability and security considerations
-
 
 # AWS access
 - To deploy locally you will need to assume a write role for the account.
@@ -32,8 +29,12 @@ serverless downloadDocumentation --outputFileName=randomapidoc.yml
 # Security
 - Consider using WAF in front of the API
 
-# operations
-To monitor deployments and key metrics via Serverless dashboard
+# Operations
+- To monitor deployments and key metrics in CloudWatch (using read-only role for ops team)
+- See deployment stats in GitHub actions (read-only access)
+- See key metrics (requests count, latency, errors) in CloudWatch
+- See alarms in CloudWatch 
+- See access logs in CloudWatch logs
 
 # CI/CD
 - Using GitHub actions  
