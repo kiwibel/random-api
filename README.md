@@ -1,5 +1,5 @@
 # random-api
-Simple API returning random status codes
+Simple API returning random status codes  
 curl https://jw64f0zc20.execute-api.ap-southeast-2.amazonaws.com/prod/hello
 
 # Key features and assumptions
@@ -17,7 +17,7 @@ curl https://jw64f0zc20.execute-api.ap-southeast-2.amazonaws.com/prod/hello
   I recommend using aws-vault https://github.com/99designs/aws-vault
 
 # API documentation
-You can download documentation from API Gateway
+You can download documentation from API Gateway  
 serverless downloadDocumentation --outputFileName=randomapidoc.yml
 
 # Scalability
