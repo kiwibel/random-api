@@ -21,7 +21,7 @@ Simple API returning random status codes
 
 # API documentation
 You can download documentation from API Gateway  
-serverless downloadDocumentation --outputFileName=randomapidoc.yml
+`serverless downloadDocumentation --outputFileName=randomapidoc.yml`
 
 # Scalability
 - API Gateway and Lambda will scale in response to the traffic spikes
