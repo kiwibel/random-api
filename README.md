@@ -65,4 +65,5 @@ git clone https://github.com/kiwibel/random-api.git
 # Further improvements
 - Add test job in the pipeline
 - Add alert notifications to Slack, PagerDuty etc.
+- Deal with dependabot alert
 - See above re scalability and security
