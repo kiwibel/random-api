@@ -1,5 +1,7 @@
 # random-api
-Simple API returning random status codes  
+Simple API returning random status codes
+
+# Usage
 `curl https://jw64f0zc20.execute-api.ap-southeast-2.amazonaws.com/prod/hello`
 
 # Key features and assumptions
@@ -10,7 +12,7 @@ Simple API returning random status codes
 - Alerting with CloudWatch alerts
 - Access logs via Cloudwatch logs
 - Scalability and security considerations  
-- (optional) Monitoring via Serverless dashboard (need a separate organization and team plan to add read-only users)
+- (optional) Monitoring via Serverless dashboard -- need a separate organization and team plan
 - (optional) Alert notifications via email, SMS, Slack webhook etc.
 
 # Pre-requisites
@@ -52,11 +54,11 @@ git clone https://github.com/kiwibel/random-api.git
 
 2. Install serverless and required plugins
 
-npm install -g serverless
-npm install serverless-plugin-aws-alerts
+`npm install -g serverless`
+`npm install serverless-plugin-aws-alerts`
 
 3. To deploy the app
-sls deploy --stage prod
+`sls deploy --stage prod`
 
 # Further improvements
 - Add test job in the pipeline
