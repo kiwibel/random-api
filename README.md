@@ -66,5 +66,5 @@ git clone https://github.com/kiwibel/random-api.git
 - Add test job in the pipeline
 - Add alert notifications to Slack, PagerDuty etc.
 - Use custom domain for API endpoint
-- Deal with dependabot alert
+- ~~Deal with dependabot alert~~
 - See above re scalability and security
