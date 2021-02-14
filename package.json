@@ -2,10 +2,12 @@
   "name": "randomApi",
   "description": "",
   "version": "0.1.0",
-  "dependencies": {},
+  "dependencies": {
+    "@serverless/platform-client": "^3.11.0"
+  },
   "devDependencies": {
-    "serverless": "^1.83.2",
+    "serverless": "^2.23.0",
     "serverless-aws-documentation": "^1.1.0",
-    "serverless-plugin-aws-alerts": "^1.6.1"
+    "serverless-plugin-aws-alerts": "^1.7.1"
   }
 }
